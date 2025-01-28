@@ -76,8 +76,8 @@ footer a:hover {
 	border-style: inset;
 	border-width: 5px;
 	border-color: #15181a;
-	margin-left: 600px;
-	margin-right: 600px;
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
 
@@ -105,10 +105,15 @@ section h2 {
 
 /* Paragraph Styles */
 section p {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
 	text-align: center;
-	margin-left: 590px;
-	margin-right: 590px;
+	margin-left: auto;
+	margin-right: auto;
 	font-weight: bold;
+	max-width: 100%;
+	
 }
 
 /* link styles */
@@ -136,7 +141,7 @@ ul {
 
 dl {
 	display: grid;
-	background-color: #e9dede;
+	background-color: aliceblue;
 	gap: 10px;
 	grid-template-columns: 25em ;
 	justify-content: center;
@@ -155,29 +160,36 @@ dl dd{
 .three-col {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+	justify-content: center;
 }
 
 .card {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
 	transition: 0.5s;
 	background-color: #e9dede;
+	padding-top: 10%;
 }
 
 .card img {
 	display: block;
 	margin: 0 auto;
-	
+	box-shadow: 10px 10px 10px 10px black;
+	border-color: #000000;
+	border-style:  groove;
+	border-radius: 10%;
+	max-width:100%;
 }
 
 .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	outline-color: #447ec0;
+	box-shadow: 5px 5px 5px 5px red;
+	color: red;
   }
 
 /* Contact Page Styles */
 .one-col {
 	display: flex;
-	justify-content: center;
+	justify-content: center;	
 }
 
 form {
@@ -202,3 +214,4 @@ form button {
 form button:hover {
 	color: red;
 }
+
