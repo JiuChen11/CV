@@ -89,6 +89,14 @@ hr {
 	border-color: #15181a;
 }
 
+hr.dotted{
+	border: 20px;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: #15181a;
+	width: 100%;
+}
+
 /* Sections */
 section {}
 
@@ -188,13 +196,16 @@ dl dd{
 
 /* Contact Page Styles */
 .one-col {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr;
 }
 
 form {
 	color: rgb(50, 39, 192);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 form input, form textarea {
@@ -213,4 +224,3 @@ form button {
 form button:hover {
 	color: red;
 }
-
