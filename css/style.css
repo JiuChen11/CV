@@ -200,8 +200,8 @@ form {
 form input, form textarea {
 	margin-right: 20px;
 	width: 200px;
-    	height: 60px;
-    	padding: 10px;
+    height: 60px;
+    padding: 10px;
 	background-color: lightsteelblue;
 }
 
