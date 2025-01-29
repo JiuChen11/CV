@@ -189,7 +189,7 @@ dl dd{
 /* Contact Page Styles */
 .one-col {
 	display: flex;
-	justify-content: center;	
+	justify-content: center;
 }
 
 form {
@@ -202,7 +202,7 @@ form input, form textarea {
 	width: 200px;
     height: 60px;
     padding: 10px;
-    
+	background-color: lightsteelblue;
 }
 
 form input:focus, form textarea:focus {}
@@ -214,4 +214,3 @@ form button {
 form button:hover {
 	color: red;
 }
-
