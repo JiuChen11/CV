@@ -189,16 +189,15 @@ dl dd{
 /* Contact Page Styles */
 .one-col {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 form {
-	display: flex;
-	justify-content: center;
+	color: rgb(50, 39, 192);
 }
 
 form input, form textarea {
-	margin-right: 20px;
 	width: 200px;
     height: 60px;
     padding: 10px;
